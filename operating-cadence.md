@@ -18,3 +18,24 @@
 - Challenge post-hoc rationalizations and highlight missed signals
 - Archive completed work and prepare handoff for next week
 - Clean up ClickUp: close finished tasks, update statuses
+- After the retro discussion, create a Google Doc using the standard format below
+
+### Friday Retrospective Documentation
+- Title format: `Friday Retrospective - YYYY-MM-DD`
+- Structure:
+```
+  # Friday Retrospective - YYYY-MM-DD
+  
+  ## Completed Tasks This Week (N)
+  [Group tasks by category with checkmarks]
+  
+  ## Key Achievements
+  [Summarize key achievements by category]
+  
+  ## Current Status
+  ### Pending Tasks (N)
+  [List remaining tasks]
+  
+  ### Active Recurring Tasks
+  [List active recurring tasks]
+```
