@@ -16,26 +16,25 @@
 - Review what worked, what failed, and why
 - Extract reusable insights and update mental models
 - Challenge post-hoc rationalizations and highlight missed signals
-- Archive completed work and prepare handoff for next week
+- Archive completed work
 - Clean up ClickUp: close finished tasks, update statuses
-- After the retro discussion, create a Google Doc using the standard format below
+- Focus retro discussion on tasks in "in progress" and "in review" status only; skip tasks already marked "complete"
+  - For "in progress" tasks: discuss why they haven't moved to "in review"
+  - For "in review" tasks: validate completion and move to "complete" status after confirmation
+- After the retro discussion, create a Google Doc summarizing the outcomes:
 
 ### Friday Retrospective Documentation
-- Title format: `Friday Retrospective - YYYY-MM-DD`
+- Filename format: `friday-retrospective-YYYY-MM-DD.md`
 - Structure:
 ```
   # Friday Retrospective - YYYY-MM-DD
-  
+
   ## Completed Tasks This Week (N)
   [Group tasks by category with checkmarks]
-  
+
   ## Key Achievements
   [Summarize key achievements by category]
-  
-  ## Current Status
-  ### Pending Tasks (N)
-  [List remaining tasks]
-  
-  ### Active Recurring Tasks
-  [List active recurring tasks]
+
+  ## Learnings
+  [Insights and lessons from the week]
 ```
