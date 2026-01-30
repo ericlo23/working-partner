@@ -25,16 +25,18 @@ Markdown only. Keep wording concise and directive.
 No automated tests. Validate by reading for clarity and consistency across files. If you split content, ensure links in `instructions.md` Index are updated.
 
 ## Commit & Pull Request Guidelines
-Commit messages are short, imperative, and describe the change. Examples:
-- `Restructure instructions and split cadence/tasks`
-- `Document repo purpose`
+Commit messages follow conventional commits format: `type(scope): description`. Examples:
+- `docs(instructions): restructure instructions and split cadence/tasks`
+- `docs: document repo purpose`
+- `feat(cadence): add weekly review template`
+
+Common types: `feat`, `fix`, `docs`, `refactor`, `chore`.
 
 PRs should include:
 - A brief summary of what changed and why.
 - Any moved/renamed files with updated references.
-- Author identity for commits:
-  - Codex: `Codex <codex@openai>`
-  - Claude Code: `Code <claudecode@anthropic>`
+
+All commits should include a Co-Authored-By trailer with the AI assistant's identity.
 
 ## Agent-Specific Instructions
 When editing, preserve the meaning of existing guidance. Prefer restructuring and clarifying over rewriting. If introducing new rules, keep them minimal and consistent with the current tone.
