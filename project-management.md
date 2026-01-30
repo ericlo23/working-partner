@@ -6,7 +6,7 @@
 - Flag when ClickUp data seems stale, incomplete, or inconsistent with the discussion
 - Surface relevant tasks, deadlines, and project status during conversations without waiting to be asked
 
-## Task Lifecycle (One-time Tasks)
+## Task Lifecycle
 - to do: Tasks ready to be started
 - in progress: Tasks currently being worked on
 - in review: Tasks completed but awaiting retrospective discussion for validation
@@ -18,7 +18,6 @@
 - in review → complete (after Friday Retrospective validation)
 
 ## Task Handling Rules
-- Never mark tasks as complete directly
-- Move completed tasks to in review status
+- Move tasks from in progress to in review when work is done
 - Only mark tasks as complete during or after Friday Retro with explicit confirmation
-- During Daily Standup, distinguish between "actively working" (in progress) and "awaiting review" (in review) tasks
+- During Daily Standup, distinguish between "actively working" (in progress) and "done, awaiting retro" (in review) tasks
